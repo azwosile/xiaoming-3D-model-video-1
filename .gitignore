@@ -1,0 +1,27 @@
+# Blender / 3D restricted & heavy binaries (never redistribute third-party derivatives)
+*.blend
+*.blend1
+*.blend2
+*.glb
+*.fbx
+*.vrm
+*.pmx
+*.pmd
+*.vmd
+*.bphys
+*.npz
+*.rar
+*.7z
+*_PRIVATE*
+*_private*
+
+# Frame caches, temp files & credentials
+mv_frames_*/
+mv_v10r19_*/
+showcase_v10r19_*/
+__pycache__/
+*.pyc
+*.log
+*.b64
+.env
+*credentials*
