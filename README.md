@@ -60,8 +60,27 @@ xiaoming-3D-model-video-1/
 │   ├── 04_genshin_hsr_shader_and_stage/  # V10R18–R19 科罗廖夫大剧院布光、4K眼脸贴图、Face SDF 与三渲二材质构建
 │   └── 05_cugan4k_rife60_mastering/   # 分批断点实渲、Real-CUGAN 4K 超分、切镜隔离 RIFE 60fps 与 BT.709 无损合流
 ├── 04_visual_milestones/              # V10R8–V10R19 阶段对比图与三段副歌 12 宫格 / 全曲 16 宫格 4K 抽检图集
-└── 05_showcase_videos/                # 仓库内置轻享版全曲 1080p60 MV、6秒样片与 24 帧循环跑步演示
+├── 05_showcase_videos/                # 仓库内置轻享版全曲 1080p60 MV、6秒样片与 24 帧循环跑步演示
+└── skills/                            # 从 V10R1–V10R19 全流程实战提炼的标准 AI Agent 技能包
+    └── anime-mmd-genshin-4k60-pipeline/ # SKILL.md + 7 章深水区排坑手册 + 4 个通用 CLI 工具 + 验收模板
 ```
+
+---
+
+## 🧠 可复用 Agent SKILLS（[`skills/anime-mmd-genshin-4k60-pipeline`](./skills/anime-mmd-genshin-4k60-pipeline/SKILL.md)）
+
+为将本工程 `V10R1–V10R19` 踩过的所有深水区难题沉淀为新角色可直接调用的标准化生产力，仓库内置完整 Agent Skill 技能包（兼容 Claude Code / ShunCode / Codex）：
+
+- **[`SKILL.md`](./skills/anime-mmd-genshin-4k60-pipeline/SKILL.md)**：6 条开工纪律、8 关量化通关门槛、12 条实战排坑硬规则与 Blender 5.2 LTS 参数速查表。
+- **`references/`（7 章分阶段技术手册）**：
+  1. 混合素体选头、无发帽头皮几何审计、`4K` 七层星芒虹膜与 `66` 面三维角膜视差高光壳；
+  2. Tripo 衣装修身剪裁、不对称设计保护、口袋内陷黑洞拓扑封腔与贴图分位数去光重烘焙；
+  3. 仰角 `45°` 下颌无缝共点同权焊接、多层落肩外套平滑传权与全曲 `6,265` 帧动态防穿模算法；
+  4. 外源 MMD 动作世界空间真值采样重定向、胸前交叉防穿插、背身 `180°` 四元数防反拧与相机视线护航；
+  5. 原神/崩铁三渲二：从头模 UV 程序化生成对称 `Face SDF`、逐帧 `CONSTANT` 头部局部光角锚定、`256×20` 分区色阶与金属高光；
+  6. 大型剧院舞台双层布光、断点续渲、`Real-CUGAN 4K` 超分与相机硬切真值隔离 `RIFE 60fps` 无果冻母带流水线；
+  7. 二次元再配布合规红线、零 Git LFS 精选建仓与大体积母带流式 GitHub Release 交付。
+- **`scripts/`（4 个跨角色通用 CLI 工具）**：`audit_garment_penetration.py`、`extract_camera_hard_cuts.py`、`cugan_rife_cut_safe_master.py`、`pre_publish_compliance_audit.py`。
 
 ---
 
